@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="facebookacc" parallel="false">
+  <test name="Createaccount">
+<parameter name="url" value="https://www.facebook.com/"/>
+  	<parameter name="fname" value="test123"/> 
+    <parameter name="sname" value="selenium"/>
+<parameter name="mmail" value="selenium123@gmail.com"/>
+<parameter name="rmail" value="selenium123@gmail.com"/>
+        <parameter name="pwd" value="selenium123"/>
+        <parameter name="bday" value="21"/>
+        <parameter name="bmonth" value="Dec"/>
+        <parameter name="byear" value="1967"/>
+    <classes>
+      <class name="june22_parameters.Face_Book"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [pomfrm]">
+  <test name="webtour(failed)">
+    <classes>
+      <class name="com.webtour.pages.Main_TestCases">
+        <methods>
+          <include name="TC3_SelectFlight"/>
+          <include name="Logout"/>
+          <include name="Launch"/>
+          <include name="TC1_Login"/>
+          <include name="TC2_FlightFinder"/>
+          <include name="TC4_BookFlight"/>
+        </methods>
+      </class> <!-- com.webtour.pages.Main_TestCases -->
+    </classes>
+  </test> <!-- webtour(failed) -->
+</suite> <!-- Failed suite [pomfrm] -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="cross" parallel="false">
+  <test name="firefoxbr">
+		<classes>
+			<parameter name="browsername" value="firefox"></parameter>
+			<class name="july_2.CrossBrowser"></class>
+		</classes>
+	</test>
+	
+	<test name="iebrw">
+		<classes>
+			<parameter name="browsername" value="ie"></parameter>
+			<class name="july_2.CrossBrowser"></class>
+		</classes>
+	</test>
+	
+	
+	<test name="chromebrw">
+		<classes>
+			<parameter name="browsername" value="chrome"></parameter>
+			<class name="july_2.CrossBrowser"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [cross]">
+  <parameter name="browsername" value="chrome"/>
+  <test name="iebrw(failed)">
+    <parameter name="browsername" value="ie"/>
+    <classes>
+      <class name="july_2.CrossBrowser">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- july_2.CrossBrowser -->
+    </classes>
+  </test> <!-- iebrw(failed) -->
+</suite> <!-- Failed suite [cross] -->
